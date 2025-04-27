@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The Gen-C Website
+
+This is a modern website for The Gen-C (Generative AI Learning Community), built with Next.js and shadcn/ui.
+
+## About Gen-C
+
+The Gen-C is a Generative AI Learning Community dedicated to training, upskilling, and empowering Singapore's students and working adults with cutting-edge Generative AI tools and techniques. Through a vibrant learning community, they help people enhance productivity and effectiveness in their academic pursuits and careers.
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - CSS framework
+- [shadcn/ui](https://ui.shadcn.com/) - UI component library
+- [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18.18 or later
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/genc-website.git
+cd genc-website
+
+# Install dependencies
+npm install
+```
+
+### Development
+
+```bash
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Build for production
+npm run build
 
-## Learn More
+# Start the production server
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `/src/app` - Application routes and pages
+- `/src/components` - Reusable UI components
+- `/src/lib` - Utility functions and shared code
+- `/public` - Static assets
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Pages
 
-## Deploy on Vercel
+- Home - Landing page with overview of Gen-C
+- About - Information about the community and leadership
+- What We Do - Details about activities and initiatives
+- Events - Upcoming and past community events
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
