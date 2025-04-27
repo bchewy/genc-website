@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import { ArrowRight, Book, Calendar, Code, Cpu, Lightbulb, Users, Sparkles, Brain, Rocket, MessageSquare } from "lucide-react";
-import Image from "next/image";
+// import { Card } from "@/components/ui/card";
+import {  Book, Calendar, Code, Cpu, Users, Sparkles, Brain, Rocket, MessageSquare } from "lucide-react";
+// import Image from "next/image";
 
 export default function Home() {
   return (
@@ -99,7 +99,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-semibold">Our Mission</h3>
                 </div>
-                <p className="text-lg mb-6 text-white/90">"Empower Singapore through Generative AI education"</p>
+                <p className="text-lg mb-6 text-white/90">&ldquo;Empower Singapore through Generative AI education&rdquo;</p>
                 
                 <div className="flex items-center mb-6">
                   <div className="h-10 w-10 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 flex items-center justify-center mr-4">
