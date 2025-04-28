@@ -136,6 +136,10 @@ export default function Home() {
                     <h4 className="font-medium mb-2 text-violet-400">Collaboration</h4>
                     <p className="text-sm text-white/80">Promote knowledge sharing and collaboration</p>
                   </div>
+                  <div className="p-4 bg-white/5 rounded-lg border border-white/10 md:col-span-2">
+                    <h4 className="font-medium mb-2 text-green-400">Accessibility</h4>
+                    <p className="text-sm text-white/80">Ensure learning is shared freely and accessible to everyone</p>
+                  </div>
                 </div>
               </div>
             </div>
